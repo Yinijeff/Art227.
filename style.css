@@ -1,0 +1,173 @@
+/* Basic style */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(223, 232, 248);
+}
+.main{
+    width: 80%;
+    margin: auto;
+}
+
+/* Header style */
+
+.header{
+    width: 100%;
+    height: auto;
+}
+
+.header > h1{
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(40, 62, 104);
+}
+
+.nav{
+    background-color:rgb(40, 62, 104) ;
+    width: 100%;
+    height: auto;
+}
+
+ ul{
+    list-style: none;
+}
+ul >li{
+    display: inline-block;
+    word-spacing: 20px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+li >a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Banner Image */
+
+.banner{
+width: 100%;
+height: auto;
+}
+/* Content style */
+
+h2{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.content >p{
+    font-size: 1.2em;
+    line-height: 27px;
+}
+
+.content > p> img{
+width: 15%;
+height:175px ;
+float: right;
+}
+
+/* footer style */
+
+.footer{
+    background-color:rgb(40, 62, 104) ;
+    margin-top: 30px;
+    padding:35px;
+    font-size: 1.2em;
+    color: #fff;
+
+}
+
+/* Page title */
+.pageTitle{
+    background-color:rgb(9, 23, 49) ;
+    height: 120px;
+    padding:5px;
+    color: #fff;
+    text-align: center;  
+}
+
+.pageTitle >h2{
+    margin-top:50px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/* content style */
+
+h2{
+    text-align: center;
+    font-size:28px;
+}
+
+.Bodytext > p> img{
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin: 0 20px;
+}
+
+p{
+    font-size: 22px;
+}
+
+/* Title style */
+
+.Title{
+    background-color:rgb(9, 23, 49) ;
+    height: 120px;
+    padding:2px;
+    color: #fff;
+    text-align: center; 
+    
+   
+}
+
+.Title >h2{
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 20px;
+}
+
+/* Note Style */
+
+.Note >h2{
+    text-align: left;
+    font-size: 22px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.Note >ul >li{
+    display: block;
+    word-spacing: 1px;
+    padding: 0;}
+
+    .page >h2{
+        text-align: left;
+        font-size: 22px;
+    }
+
+    .page >ul >li{
+    display: block; 
+    word-spacing: 1px;
+    padding: 0;       
+    }
+
+    .last >h2{
+        text-align: left;
+        font-size: 22px;
+    }
+
+    
+
